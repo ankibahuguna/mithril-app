@@ -1,0 +1,18 @@
+{
+  "name": "mithirl",
+  "version": "1.0.0",
+  "description": "Mithril js learning practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack src/index.js bin/app.js --watch"
+  },
+  "author": "Ankit Bahuguna",
+  "license": "ISC",
+  "dependencies": {
+    "mithril": "^1.1.5"
+  },
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
